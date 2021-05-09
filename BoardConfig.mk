@@ -73,7 +73,7 @@ TARGET_RECOVERY_WIPE := device/google/wahoo/rootdir/etc/recovery.wipe
 TARGET_RECOVERY_FSTAB := device/google/wahoo/rootdir/etc/fstab.hardware
 
 BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 3
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
 BOARD_SYSTEMIMAGE_JOURNAL_SIZE := 0
